@@ -3,3 +3,510 @@ body {
     font-family: "Jost" ;
    
    }
+   :root{
+    --Figure-fon:#F4F0EC;
+    --text-color:#292F36;
+    --agretext-color:#4D5053;
+    --hower-color:#CDA274;
+    --border-color:#E7E7E7;
+    --puple-fon:#ffff;
+
+   }
+   .container{
+    width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+    outline: 1px solid purple ; 
+   
+}
+/* ------------------------------header------------------------------- */
+.header-container{
+    display: flex;
+    align-items: center; 
+}
+.header-href{
+    margin-right: 484px;
+    width: 80px;
+}
+.header-list{
+display: flex;
+align-items: center;
+gap: 40px;
+margin-left: auto;
+
+}
+.headtr-href{
+color: var(--text-color);
+font-size: 20px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.4px;
+margin-top: 28px;
+margin-bottom: 52px;
+
+}
+.headtr-href:hover{
+    color: var(--hower-color);
+}
+/* ------------------------------header------------------------------- */
+
+/* ------------------------------design---------------------------------- */
+
+.dream-title{
+    color: var(--text-color);
+font-family: "DM Serif Display";
+font-size: 80px;
+font-weight: 400;
+line-height: 1.2;
+letter-spacing: 0.22px;
+width: 595px;
+
+}
+.dream-text{
+    color: var(--agretext-color);
+font-size: 22px;
+font-weight: 400;
+line-height: 1.2;
+letter-spacing: 0.22px;
+width: 577px;
+}
+.dream-button{
+    padding: 22px 67px 22px 34px;
+    border-radius: 15px;
+  background-color: var(--text-color);
+  color: var(--Figure-fon);
+font-size: 18px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.72px;
+margin-top: 35px;
+}
+
+.dream{
+    padding-top: 188px;
+    padding-bottom: 260px;
+    background-image: url(../img/dream.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1440px,831px;
+    border-radius: 0px 0px 0px 290px;
+}
+/* -.-----------------------------design---------------------------------- */
+.designs-raven{
+
+}
+.design{
+    padding-top: 164px;
+    padding-bottom: 170px;
+}
+.design-list{
+    display: flex;
+    justify-content: center;
+    gap: 93px;
+}
+.design-desc{
+    color: var(--text-color);
+text-align: center;
+font-family: "DM Serif Display";
+font-size: 25px;
+font-weight: 400;
+line-height: 1.56;
+letter-spacing: 0.22px;
+}
+.design-text{
+   
+    color: var(--agretext-color);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+    margin-bottom: 68px;
+}
+
+.design-href{
+    color: var(--agretext-color);
+font-size: 18px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.36px;
+}
+.design-img{
+    margin-top: 6px;
+    margin-left: 6px;
+}
+.design-span{
+    display: flex;
+    justify-content: center;
+}
+/* ---------------------------------designs-------------------------------------------- */
+.designs{
+    padding-bottom: 139px;
+}
+.designs-desc{
+    color: var(--text-color);
+font-family: "DM Serif Display";
+font-size: 50px;
+font-weight: 400;
+line-height: 1.3;
+letter-spacing: 0.22px;
+width: 450px;
+margin-bottom: 42px;
+}
+.designs-text{
+    color: var(--agretext-color);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+    width: 531px;
+    margin-bottom: 46px;
+}
+.designs-namber{
+    color: var(--agretext-color);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+
+}
+.designs-button{
+color: var(--Figure-fon);
+font-size: 18px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.72px;
+background-color: var(--text-color);
+border-radius: 5px;
+display: flex;
+padding: 21px 47px 23px 34px;
+}
+.designs-img{
+    display: flex;
+    justify-content: space-between;
+}
+.designs-item{
+    display: flex;
+}
+/* ---------------------------------designs-------------------------------------------- */
+/* ---------------------------------------thinks----------------------------------------------- */
+.thinks{
+ display: flex;
+ 
+
+}
+.tim-dox{
+    padding-top:30px;
+       padding-bottom: 30px;
+      background-color:var(--puple-fon);
+       border-radius: 15px ;
+   }
+.thinks-container{
+    background-color:var(--Figure-fon);
+    border-radius: 30px;
+   
+}
+.thinks-list{ 
+    display: flex;
+justify-content: center;
+gap: 18px;
+}
+.thinks-h2{
+    color: var(--text-color);
+    font-family: "DM Serif Display";
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 1.3;
+    letter-spacing: 0.22px;
+    width: 479px;
+    margin-left: 361px;
+}
+.thinks-desc{
+    color: var(--text-color);
+    font-family: "DM Serif Display";
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+}
+.thinks-snippet{
+    color:var(--agretext-color);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+   
+}
+.thinks-text{
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+    width: 244px;
+    margin-left: 35px;
+    margin-right: 75px;
+}
+.thinks-nav{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.thinks-photo{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* ---------------------------------------thinks----------------------------------------------- */
+/* ----------------------------------------projects----------------------------------------- */
+
+.projects{
+    padding-top: 140px;
+    padding-bottom: 152px;
+}
+
+.projects-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+/* ----------------------------------------projects----------------------------------------- */
+
+/* ----------------------------------------recent----------------------------------------- */
+.recent-img{
+    display: flex;
+    justify-content: space-between;
+}
+.recent-button{
+    border: none;
+    background-color: var(--Figure-fon);
+    padding: 27px 27px 31px;
+    border-radius: 100px;
+   
+}
+.recent{
+    padding-bottom: 107px;
+}
+.recent-foto{
+     margin-right: 20px; 
+}
+.recent-desc{
+    color: var(--text-color);
+font-family: "DM Serif Display";
+font-size: 47px;
+font-weight: 400;
+line-height: 1.32; 
+letter-spacing: 0.22px;
+}
+.recent-text{
+    color: var(--agretext-color);
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.22px;
+width: 786px;
+margin-left: 207px;
+}
+
+.recent-h3{
+    color: var(--text-color);
+font-family: "DM Serif Display";
+font-size: 25px;
+font-weight: 400;
+line-height: 1.4;
+letter-spacing: 0.5px;
+}
+.recent-title{
+    color: var(--agretext-color);
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.22px;
+}
+
+.recent-foto{
+    width: 100%;
+    
+}
+.recent-item{
+   
+    flex-basis: calc((100% - 20px) / 2);
+}
+.recent-list{
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+justify-content: center;
+}
+
+.recent-desc{
+margin-left: 434px;
+}
+
+/* ----------------------------------------recent----------------------------------------- */
+
+/* ------------------------------------------------figure--------------------------------- */
+.figure{
+    background-color:var(--Figure-fon);
+    padding-top: 160px;
+    padding-bottom: 187px;
+}
+.figure-list{
+    display: flex;
+    gap: 200px;
+    justify-content: space-between;
+}
+.figure-img{
+    
+    margin-bottom: 10px;
+border-right: 1px solid var(--hower-color);
+    
+}
+
+
+/* ------------------------------------------------figure--------------------------------- */
+/* -------------------------------------blogs-------------------------------------------- */
+.blogs-page{
+    position: absolute;
+    top: 244px;
+    left: 45px;
+
+}
+.blogs-item{
+    position: relative;
+}
+.blogs-our{
+    display: flex;
+}
+.blogs-page{
+    padding: 9px 10px 11px 10px;
+    border: none;
+    border-radius: 8px 8px 8px 0px;
+
+}
+.blogs{
+    padding-top: 143px;
+    padding-bottom: 141px;
+}
+.blogs-title{
+    margin: 0 auto;
+    margin-bottom: 21px;
+    color: var(--agretext-color);
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.22px;
+width: 589px;
+}
+.blogs-list{
+    display: flex;
+ flex-wrap: wrap; 
+    gap: 19px;
+}
+.blogs-item{
+    width: 387px;
+}
+.blogs-img{
+   width: 100%; 
+} 
+.blogs-snippet{
+    margin-bottom: 34px;
+    color: var(--text-color);
+    width: 334px;
+font-family: "DM Serif Display";
+font-size: 25px;
+font-weight: 400;
+line-height:1.4;
+letter-spacing: 0.5px;
+}
+.blogs-dox{
+   border-radius: 45px;
+        outline: 1px solid var(--border-color) ; 
+        padding: 21px;
+}
+
+/* -------------------------------------blogs-------------------------------------------- */
+/* -------------------------------------join-------------------------------------------- */
+.join{
+    background-color: #292F36;
+    border-radius: 70px;
+    padding-top: 100px;
+    padding-bottom: 95px;
+    display: flex;
+    justify-content: center;
+align-items: center;
+height: 414px;
+}
+.join-desc{
+    color: var(--border-color);
+font-family: "DM Serif Display";
+font-size: 50px;
+font-weight: 400;
+line-height: 1.5px;
+letter-spacing: 0.22px;
+margin-left: 333px;
+padding-bottom: 30px;
+
+}
+.join-title{
+    margin-left: 387px;
+    color: var(--Figure-fon);
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.22px;
+}
+.join-button{
+    margin-left: 474px;
+color:var(--Figure-fon);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+    background-color: var(--hower-color);
+    border: none;
+    padding: 21px 67px 23px 34px;
+    border-radius: 15px;
+    margin-top: 31px;
+}
+/* -------------------------------------join-------------------------------------------- */
+/* -----------------------------------------footer----------------------------------------------- */
+
+.footer-title{
+    width: 326px;
+    color: var(--agretext-color);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+}
+.footer-item{
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+}
+.footer-img{
+    margin-top: 10px;  
+}
+.footer-li{
+    display: flex;
+}
+.footer-desc{
+    color: var(--text-color);
+font-family: "DM Serif Display";
+font-size: 25px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.22px;
+margin-bottom: 21px;
+margin-left: 38px;
+}
+.footer-href{
+    margin-bottom: 21px;
+    color: var(--agretext-color);
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5; 
+letter-spacing: 0.22px;
+margin-left: 38px;
+
+}
