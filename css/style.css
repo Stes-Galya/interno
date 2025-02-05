@@ -285,14 +285,16 @@ gap: 18px;
 .recent-img{
     display: flex;
     justify-content: space-between;
+
 }
 .recent-button{
+
     border: none;
     background-color: var(--Figure-fon);
     padding: 29px 30px 30px;
     border-radius: 100px;
-    width: 55px;
-height: 55px;
+    width: 72px;
+height: 72px;
 
 
    
@@ -317,6 +319,7 @@ line-height: 1.32;
 letter-spacing: 0.22px;
 }
 .recent-text{
+    width: 615px;
     color: var(--agretext-color);
 font-size: 22px;
 font-weight: 400;
@@ -374,11 +377,23 @@ margin-left: 434px;
     gap: 200px;
     justify-content: space-between;
 }
-.figure-img{
-    
+.figure-item{
+    height: 165px;
     margin-bottom: 10px;
 border-right: 1px solid var(--hower-color);
-    
+}
+.figure-img{
+margin-left: 60px;
+}
+.figure-title{
+    margin-right: 55px;
+    color: var(--agretext-color);
+text-align: center;
+font-size: 22px;
+font-weight: 400;
+line-height: 1.5;
+letter-spacing: 0.22px;
+width: 200px;
 }
 
 
@@ -505,18 +520,18 @@ color:var(--Figure-fon);
 .footer-item{
   display: flex;
   flex-direction: column;
- 
+  
     margin-top: 10px;
 }
 .footer-img{
     margin-top: 10px;  
 }
 .footer-items{
-    /* display: flex; */
+    display: flex; 
     gap: 40px; 
 }
 .footer-desc{
- 
+
     color: var(--text-color);
 font-family: "DM Serif Display";
 font-size: 25px;
@@ -541,3 +556,7 @@ margin-left: 38px;
 .footer-thumbnail{
     width: 321px;
 }
+.footer-ul{
+    display: flex;
+}
+
