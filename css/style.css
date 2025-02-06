@@ -152,15 +152,27 @@ line-height: 1.3;
 letter-spacing: 0.22px;
 width: 450px;
 margin-bottom: 42px;
+
+
 }
-.designs-text{
+.designs-copy{
+    margin-bottom: 68px;
     color: var(--agretext-color);
     font-size: 22px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.22px;
     width: 531px;
-    margin-bottom: 46px;
+}
+.designs-text{
+    margin-bottom: 30px;
+    color: var(--agretext-color);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.22px;
+    width: 531px;
+
 }
 .designs-namber{
     color: var(--agretext-color);
@@ -205,14 +217,18 @@ height: 95px;
 
 }
 .tim-dox{
-    padding-top:30px;
+    padding:30px 40px;
        padding-bottom: 30px;
       background-color:var(--puple-fon);
        border-radius: 15px ;
+     
+      
    }
 .thinks-container{
     background-color:var(--Figure-fon);
     border-radius: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
    
 }
 .thinks-list{ 
@@ -221,16 +237,21 @@ justify-content: center;
 gap: 18px;
 }
 .thinks-h2{
+    margin-bottom: 47px;
     color: var(--text-color);
     font-family: "DM Serif Display";
     font-size: 45px;
     font-weight: 400;
     line-height: 1.3;
     letter-spacing: 0.22px;
-    width: 479px;
-    margin-left: 361px;
+    width: 479px; 
+  margin-right: auto;
+  margin-left: auto;
+text-align: center;
 }
 .thinks-desc{
+   
+    
     color: var(--text-color);
     font-family: "DM Serif Display";
     font-size: 25px;
@@ -253,17 +274,18 @@ gap: 18px;
     line-height: 1.5;
     letter-spacing: 0.22px;
     width: 244px;
-    margin-left: 35px;
-    margin-right: 75px;
+    
 }
 .thinks-nav{
     display: flex;
     flex-wrap: wrap;
 
 }
-.thinks-photo{
-    margin-left: 20px;
+.thinks-photo{ 
     margin-right: 20px;
+}
+.thinks-item{
+
 }
 /* ---------------------------------------thinks----------------------------------------------- */
 /* ----------------------------------------projects----------------------------------------- */
@@ -317,8 +339,14 @@ font-size: 47px;
 font-weight: 400;
 line-height: 1.32; 
 letter-spacing: 0.22px;
+margin-right: auto;
+margin-left: auto;
+text-align: center;
 }
 .recent-text{
+    margin-right: auto;
+margin-left: auto;
+text-align: center;
     width: 615px;
     color: var(--agretext-color);
 font-size: 22px;
@@ -326,7 +354,7 @@ font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.22px;
 width: 786px;
-margin-left: 207px;
+
 }
 
 .recent-h3{
@@ -360,9 +388,8 @@ gap: 20px;
 justify-content: center;
 }
 
-.recent-desc{
-margin-left: 434px;
-}
+
+
 
 /* ----------------------------------------recent----------------------------------------- */
 
@@ -374,19 +401,22 @@ margin-left: 434px;
 }
 .figure-list{
     display: flex;
-    gap: 200px;
+ 
     justify-content: space-between;
 }
 .figure-item{
     height: 165px;
-    margin-bottom: 10px;
+ 
 border-right: 1px solid var(--hower-color);
 }
 .figure-img{
-margin-left: 60px;
+margin-left: auto;
+margin-right: auto;
 }
 .figure-title{
-    margin-right: 55px;
+    margin-left: 55px;
+    margin-right: auto;
+    margin-left: auto;
     color: var(--agretext-color);
 text-align: center;
 font-size: 22px;
@@ -395,7 +425,10 @@ line-height: 1.5;
 letter-spacing: 0.22px;
 width: 200px;
 }
+.figure-item:nth-child(4){
+    border-right: none;
 
+}
 
 /* ------------------------------------------------figure--------------------------------- */
 /* -------------------------------------blogs-------------------------------------------- */
@@ -423,7 +456,9 @@ width: 200px;
 }
 .blogs-title{
     margin: 0 auto;
-    margin-bottom: 21px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
     color: var(--agretext-color);
 font-size: 22px;
 font-weight: 400;
