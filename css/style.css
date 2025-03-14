@@ -20,6 +20,13 @@ body {
    
 }
 /* ------------------------------header------------------------------- */
+.header-svg{
+    width: 10px;
+height: 16px;
+fill: var(--text-color);
+
+}
+
 .header{
 padding-top: 15px;
 padding-bottom: 30px;
@@ -47,10 +54,16 @@ line-height: 1.5;
 letter-spacing: 0.4px;
 margin-top: 28px;
 margin-bottom: 52px;
+display: flex;
+align-items: center;
+gap: 10px;
 
 }
 .headtr-href:hover{
     color: var(--hower-color);
+    .header-svg{
+        fill: var(--hower-color);
+    }
 }
 
 /* ------------------------------header------------------------------- */
