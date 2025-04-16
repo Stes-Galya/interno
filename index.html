@@ -6,11 +6,17 @@
     <title>Document</title>
     <link
       rel="stylesheet"
+      
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
       integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+      referrerpolicy="no-referrer"/>
+      <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -52,12 +58,12 @@
       <!-- Let's Create Your Dream Interior -->
       <section class="dream">
         <div class="container dream-container">
-          <h1 class="dream-title">Let's Create Your Dream Interior</h1>
-          <p class="dream-text">
+          <h1 class="dream-title  animate__animated animate__heartBeat animate__repeat-2">Let's Create Your Dream Interior</h1>
+          <p class="dream-text  animate__animated animate__bounce animate__faster">
             The world needs innovators and problem solvers who turn
             challenges into greater opportunities.
           </p>
-          <button class="dream-button">Get Started
+          <button class="dream-button animate__animated animate__headShake animate__infinite	infinite">Get Started
             <img class="dream-img" src="./img/look.svg" alt="">
           </button>
         </div>
@@ -68,7 +74,7 @@
           <ul class="design-list">
             <li class="design-item">
               <h3 class="design-desc">Interior Design</h3>
-              <p class="design-text">
+              <p class="design-text"  data-aos="fade-up-right">
                 Enhancing the interior to achieve a healthier environment for
                 the people using right space.
               </p>
@@ -79,7 +85,7 @@
             </li>
             <li class="design-item">
               <h3 class="design-desc">Furniture</h3>
-              <p class="design-text">
+              <p class="design-text"  data-aos="fade-up-right">
                 Movable articles that are used to make a room or building
                 suitable for living or working.
               </p>
@@ -90,7 +96,7 @@
             </li>
             <li class="design-item">
               <h3 class="design-desc">Flooring</h3>
-              <p class="design-text">
+              <p class="design-text"  data-aos="fade-up-right">
                 Thin object any finished material applied over a floor structure
                 to provide a walking surface.
               </p>
@@ -108,21 +114,25 @@
         <ul class="designs-list">
           <li class="designs-item">
             <div class="designs-div">
-            <h2 class="designs-desc">We Tackle The Most Challenging Designs</h2>
-            <p class="designs-text">
+            <h2 class="designs-desc"  data-aos="flip-up">We Tackle The Most Challenging Designs</h2>
+            <p class="designs-text" data-aos="flip-down" >
               The world needs innovators and problem solvers who turn challenges
               into greater opportunities. We have
               an insatiable curiosity about transformative trends challenging
               the status.
             </p>
             <div class="designs-div2">
-            <button class="designs-tell"><img src="./img/tell.jpg" alt=""></button>
+            <button class="designs-tell"  data-aos="fade-down-right"  data-aos-easing="linear"
+            data-aos-duration="1500"
+            data-aos-easing="ease-in-sine"><img src="./img/tell.jpg" alt=""></button>
             <div class="designs-divmargin">
-            <a href="tel:012345678" class="designs-namber">012345678 </a>
-            <p class="designs-copy">Call Us Anytime</p>
+            <a href="tel:012345678" class="designs-namber" >012345678 </a>
+            <p class="designs-copy"  data-aos="flip-left">Call Us Anytime</p>
           </div>
         </div>
-            <button class="designs-button">Get Free Estimate
+            <button class="designs-button"  data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">Get Free Estimate
               <img class="designs-look" src="./img/look.svg" alt="look">
             </button>
             </div>
@@ -145,7 +155,7 @@
             <h4 class="thinks-snippet">New York, USA</h4>
             </div>
            </nav>
-            <p class="thinks-text">
+            <p class="thinks-text"  data-aos="zoom-in">
               We selected Interno interior because of rigorous design background
               & education.
             </p>
@@ -164,7 +174,7 @@
             <h4 class="thinks-snippet">Sydney, Australia</h4>
           </div>
           </nav>
-            <p class="thinks-text">
+            <p class="thinks-text"  data-aos="zoom-in">
               The team exceeded our expectations and emerged as leaders of our
               project’s.
             </p>
@@ -183,7 +193,7 @@
             <h4 class="thinks-snippet">Paris, France</h4>
             </div>
           </nav>
-            <p class="thinks-text">
+            <p class="thinks-text"  data-aos="zoom-in">
               They balanced the architectural vision and the project realities
               beautifully.
             </p>
@@ -196,19 +206,19 @@
       <section class="projects">
         <div class="container"> 
           <ul class="projects-list">
-            <li class="projects-li">
+            <li class="projects-li"  data-aos="fade-left ">
               <img class="projects-img" src="./img/home.jpg" alt="">
             </li>
-            <li class="projects-li">
+            <li class="projects-li" data-aos="fade-left ">
               <img class="projects-img" src="./img/vs.png" alt="">
             </li>
-            <li class="projects-li">
+            <li class="projects-li" data-aos="fade-left ">
               <img class="projects-img" src="./img/brand.png" alt="">
             </li>
-            <li class="projects-li">
+            <li class="projects-li" data-aos="fade-left ">
               <img class="projects-img" src="./img/natue.png" alt="">
             </li>
-            <li class="projects-li">
+            <li class="projects-li" data-aos="fade-left ">
               <img class="projects-img" src="./img/classic.png" alt="">
             </li>
           </ul>
@@ -216,8 +226,8 @@
           </section>
           <section class="recent">
             <div class="container  recent-container"> 
-        <h2 class="recent-desc">Recent Projects</h2>
-        <p class="recent-text">
+        <h2 class="recent-desc" data-aos="fade-down-right">Recent Projects</h2>
+        <p class="recent-text" data-aos="fade-down-left">
           With tools to make every part of your process more human and a support
           team
           excited to help you, getting started with us never been easier.
@@ -272,7 +282,7 @@
       <section class="figure">
         <div class="container">
         <ul class="figure-list">
-          <li class="figure-item">
+          <li class="figure-item" >
             <img class="figure-img" src="./img/12.png" alt="12" />
             <p class="figure-title">Years Of Experiance</p>
           </li>
@@ -375,9 +385,9 @@
       <!-- Wanna join the interno? -->
       <section class="join">
         <div class="container">
-        <h2 class="join-desc">Wanna join the interno?</h2>
-        <p class="join-title">Contact Us & Get a Free Consultation</p>
-        <button class="join-button">Connect With us</button>
+        <h2 class="join-desc" data-aos="flip-left">Wanna join the interno?</h2>
+        <p class="join-title"  data-aos="flip-right">Contact Us & Get a Free Consultation</p>
+        <button class="join-button" data-aos="zoom-in-up">Connect With us</button>
         </div>
       </section>
     </main>
@@ -448,5 +458,9 @@
       </section>
   
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
